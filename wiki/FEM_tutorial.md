@@ -109,7 +109,7 @@ We have now meshed our object and are ready to add constraints and forces.
 5.  To remove the results select <img alt="" src=images/FEM_ResultsPurge.svg  style="width:24px;"> [Purge results](FEM_ResultsPurge.md).
 
 
-{{Note|Comparison to previous example file|If you select the '''Z displacement''' result type, you can see that the obtained value is almost identical to the test example provided by FreeCAD. Differences may occur due to the quality of the mesh and the number of nodes it possesses.}}
+{{Note|Comparison to previous example file|If you select the '''Z displacement''' result type, plus, click on the <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:24px;">FEM_PostFilterWarp FEM's button and give to minimum deformation 1, 10 in deformation factor and 100 in maximum deformation. Then, you can see that the obtained value is almost identical to the test example provided by FreeCAD. Differences may occur due to the quality of the mesh and the number of nodes it possesses.}}
 
 We are now finished with the basic workflow for the [FEM Workbench](FEM_Workbench.md).
 
